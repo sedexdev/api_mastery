@@ -8,6 +8,43 @@
 
 Focus: REST, GraphQL, gRPC, security, OpenAPI, and real world architectural patterns — without relying on framework tutorials.
 
+
+## 📚 Phase 0 — Distributed Architecture & Systems (4–6 weeks)
+
+### 📘 Primary Book  
+**Distributed Services in Go** (O’Reilly)  
+https://www.oreilly.com/library/view/distributed-services-in/9781492057032/
+
+**Why:**  
+This book covers real architectural concerns that show up in modern API ecosystems:
+
+- RPC vs messaging
+- Service discovery
+- Load balancing
+- Health checks & readiness
+- Circuit breakers
+- Rate limiting
+- Middleware patterns
+- Deadlines & timeouts
+- Observability (tracing, metrics)
+- Deployment concerns
+
+It also teaches via practical code examples — ideal for people who *learn by doing*, not by memorising specs.
+
+---
+
+## 🎥 Video Supplements
+
+### 🛠 Service Architecture & Distributed Systems
+
+**1. Microservices Explainer (TechWorld with Nana)**  
+A long‑form, beginner‑friendly explain of microservice architecture via diagrams + examples  
+https://www.youtube.com/watch?v=CZ3wIuvmHeM
+
+**2. What is an API Gateway?**  
+Practical architectural walkthrough of API gateways 
+https://www.youtube.com/watch?v=hWRRdICvMNs&t=194s
+
 ---
 
 ## 🧠 Phase 1 — HTTP Foundations (2–3 weeks)
@@ -229,6 +266,7 @@ Optional: Deploy locally or on cloud (with logs/metrics).
 
 | Phase | Duration |
 |-------|----------|
+| Architecture fundamentals | 4–6 wks |
 | HTTP Foundations | 2–3 wks |
 | REST & API Design | 6–8 wks |
 | GraphQL | 2–3 wks |
